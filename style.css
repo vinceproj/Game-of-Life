@@ -1,0 +1,87 @@
+canvas{
+    border: 2px solid black;
+background: lightblue;}
+
+#cellDisplay{
+position: fixed;
+left: 25px;
+top: 150px;
+}
+
+#stateDisplay{
+    position: fixed;
+    left: 380px;
+    top: 150px;
+}
+
+h1{
+    position: fixed;
+    left: 10px;
+    top: 0px;
+    font-size: 60px;
+    font-family: "Comic Sans MS";
+    background: lightslategray;
+    color: black;
+    width: 700px;
+    height: 655px;
+    text-align: center;
+    border: solid 5px black;
+}
+
+h2{
+    position: fixed;
+    left: 25px;
+    top: 425px;
+    height: 230px;
+    width: 420px;
+    padding: 10px 10px;
+    color:black;
+}
+
+h3{
+    position: fixed;
+    left: 500px;
+    top: 352px;
+    width: 190px;
+    padding: 10px 10px;
+    color: black;
+    font-size:24px;
+}
+
+#Run_Full{
+    position: fixed;
+    top: 370px;
+    left: 25px;
+    width: 215px;
+    background-color: red;
+    border: none;
+    color:white;
+    text-align: center;
+    padding: 10px 10px;
+    font-size:36px;
+}
+
+#Run_Steps{
+    position: fixed;
+    top: 370px;
+    left: 250px;
+    width: 215px;
+    background-color: green;
+    border: none;
+    color:white;
+    text-align: center;
+    padding: 10px 10px;
+    font-size:36px;
+}
+
+#Reset{
+    position: fixed;
+    top: 370px;
+    left: 410px;
+    background-color: blue;
+    border: none;
+    color:white;
+    text-align: center;
+    padding: 10px 10px;
+    font-size:36px;
+}
