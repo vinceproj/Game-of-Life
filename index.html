@@ -5,27 +5,30 @@ This HTML file allows a web browser to open the Game of Life by Turing Machine f
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Team ATT</title>
+    <title>GoL TM</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <h1>Team ATT</h1>
-    <canvas id="cellDisplay" height ="190" width ="340"></canvas>
-    <canvas id="stateDisplay" height ="190" width= "320"></canvas>
+    <h1>Game of Life - TM</h1>
+    <canvas id="cellDisplay" height="190" width="340"></canvas>
+    <canvas id="stateDisplay" height="190" width="320"></canvas>
     <input id="Run_Full" type="button" value="Run Full" onclick="runFull();">
     <input id="Run_Steps" type="button" value="Run Steps" onclick="runStep();">
-<h2>1. This Game of Life is randomly seeded<br>
-    2. Press Run Full to view full generations at once <br>
-    3. Press Run Steps to view the TM head in action<br>
-    4. Edit fullChoice or stepChoice in the .js<br>
-    to alter how many function calls are made<br>
-</h2>
+    <h2>1. This Game of Life is randomly seeded<br>
+        2. Press Run Full to view full generations at once <br>
+        3. Press Run Steps to view the TM head in action<br>
+        4. Edit fullChoice or stepChoice in the .js<br>
+        to alter how many function calls are made<br>
+    </h2>
 
 
     <script src="script.js"></script>
 </body>
+
 </html>
